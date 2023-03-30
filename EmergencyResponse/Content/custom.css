@@ -1,0 +1,150 @@
+﻿@font-face {
+    font-family: myK2D-Thin;
+    src: url('../../fonts/K2D/K2D-Thin.ttf');
+}
+@font-face {
+    font-family: myK2D-Medium;
+    src: url('../../fonts/K2D/K2D-Medium.ttf');
+}
+
+@font-face {
+    font-family: myK2D-Light;
+    src: url('../../fonts/K2D/K2D-Light.ttf');
+}
+
+@font-face {
+    font-family: myK2D-Bold;
+    src: url('../../fonts/K2D/K2D-Bold.ttf');
+}
+body {
+    font-family: Arial;
+    background: skyblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(skyblue,#C7FBF2, #DBFAF5 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(skyblue,#C7FBF2, #DBFAF5 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(skyblue,#C7FBF2, #DBFAF5 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(skyblue,#C7FBF2, #DBFAF5 ); /* Standard syntax */
+}
+
+.div-container {
+    min-width: 16rem;
+    max-width: 100rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-container-body {
+    margin: 4.5rem;
+    border-radius: 0.25rem;
+    position: relative;
+    box-shadow: none;
+}
+.exem-header {
+    background-color: #277dab;
+    padding: 3.125rem;
+    font-family: myK2D-Medium;
+}
+.text-format-content {
+    font-size: 35px;
+    word-break: break-word;
+    hyphens: unset;
+    color: #fff;
+}
+.div-title{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: initial;
+}
+.div-logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: initial;
+    width: fit-content;
+    line-height: 0;
+    position: relative;
+    margin-bottom: 1.5625rem;
+}
+.div-subTitle {
+    margin-top: 1.25rem;
+    font-size: 18px;
+    color: #fff;
+    word-break: break-word;
+    font-family: myK2D-Thin;
+}
+.div-fa-volume {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: initial;
+    bottom: 0px;
+    position: absolute;
+    right: 1rem;
+    cursor:pointer;
+}
+.button-fa-volume {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    vertical-align: middle;
+    margin: 0px;
+    text-decoration-line: none;
+    outline-style: none;
+    width: fit-content;
+    border-radius: 0.25rem;
+    padding: 0.4375rem;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    line-height: 1.375rem;
+    font-weight: 600;
+    font-size: 1.875rem;
+    max-width: 2.5rem;
+}
+.exem-body {
+    background-color: #f5f5f5;
+    padding: 3.125rem;
+    font-family: myK2D-Bold;
+    opacity: 0.9;
+    word-wrap: break-word;
+}
+.exem-que {
+    z-index: 100 !important;
+    position: relative;
+    background-color: #e6eef2;
+    opacity: 1.0 !important;
+    margin: 10px;
+    font-family: myK2D-Light;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.clear-line {
+    line-height: 20px;
+}
+.f-error {
+    color: red;
+    font-size: 12px;
+    font-family: myK2D-Light;
+}
+.n-error {
+    display:none;
+}
+.d-open{
+    display:block;
+}
+.d-close {
+    display: none;
+}
+.ans-corret {
+    display: inline-flex;
+    font-size:larger;
+    font-weight:bolder;
+    color: #13a10e;
+}
+.ans-worng {
+    display: inline-flex;
+    font-size: larger;
+    font-weight: bolder;
+    color: #bc2f32;
+}
