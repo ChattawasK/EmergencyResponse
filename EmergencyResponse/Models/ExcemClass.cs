@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -157,6 +157,9 @@ namespace EmergencyResponseModels
 
             data.Id = "AAAAA";
             data.AsOfDate = "03/01/2023";
+            data.WatchYoutube = "True";
+            data.FullName = "Full Name";
+            data.Companay = "Company";
             data.Answers = new List<AnswerClass>();
 
             List<AnswerClass> ans = new List<AnswerClass>()
